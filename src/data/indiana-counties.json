@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Adams",
+        "STATE": "IN"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-84.8037, 40.7510], [-84.8037, 40.5706], [-85.0793, 40.5706], [-85.0793, 40.7510], [-84.8037, 40.7510]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Allen",
+        "STATE": "IN"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-85.0793, 41.1718], [-85.0793, 40.9514], [-85.3349, 40.9514], [-85.3349, 41.1718], [-85.0793, 41.1718]]]
+      }
+    }
+  ]
+}
