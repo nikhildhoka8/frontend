@@ -10,19 +10,8 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 
 const INDIANA_COUNTIES = [
-  'Adams', 'Allen', 'Bartholomew', 'Benton', 'Blackford', 'Boone', 'Brown',
-  'Carroll', 'Cass', 'Clark', 'Clay', 'Clinton', 'Crawford', 'Daviess', 'Dearborn',
-  'Decatur', 'DeKalb', 'Delaware', 'Dubois', 'Elkhart', 'Fayette', 'Floyd',
-  'Fountain', 'Franklin', 'Fulton', 'Gibson', 'Grant', 'Greene', 'Hamilton',
-  'Hancock', 'Harrison', 'Hendricks', 'Henry', 'Howard', 'Huntington', 'Jackson',
-  'Jasper', 'Jay', 'Jefferson', 'Jennings', 'Johnson', 'Knox', 'Kosciusko',
-  'LaGrange', 'Lake', 'LaPorte', 'Lawrence', 'Madison', 'Marion', 'Marshall',
-  'Martin', 'Miami', 'Monroe', 'Montgomery', 'Morgan', 'Newton', 'Noble', 'Ohio',
-  'Orange', 'Owen', 'Parke', 'Perry', 'Pike', 'Porter', 'Posey', 'Pulaski',
-  'Putnam', 'Randolph', 'Ripley', 'Rush', 'St. Joseph', 'Scott', 'Shelby',
-  'Spencer', 'Starke', 'Steuben', 'Sullivan', 'Switzerland', 'Tippecanoe', 'Tipton',
-  'Union', 'Vanderburgh', 'Vermillion', 'Vigo', 'Wabash', 'Warren', 'Warrick',
-  'Washington', 'Wayne', 'Wells', 'White', 'Whitley'
+  'Adams County', 'Allen County', 'Bartholomew County', 'Benton County', 'Blackford County', 'Boone County', 'Brown County', 'Carroll County', 'Cass County', 'Clark County', 'Clay County', 'Clinton County', 'Crawford County', 'Daviess County', 'Dearborn County', 'Decatur County', 'DeKalb County', 'Delaware County', 'Dubois County', 'Elkhart County', 'Fayette County', 'Floyd County', 'Fountain County', 'Franklin County', 'Fulton County', 'Gibson County', 'Grant County', 'Greene County', 'Hamilton County', 'Hancock County', 'Harrison County', 'Hendricks County', 'Henry County', 'Howard County', 'Huntington County', 'Jackson County', 'Jasper County', 'Jay County', 'Jefferson County', 'Jennings County', 'Johnson County', 'Knox County', 'Kosciusko County', 'LaGrange County', 'Lake County', 'LaPorte County', 'Lawrence County', 'Madison County', 'Marion County County', 'Marshall County', 'Martin County', 'Miami County', 'Monroe County', 'Montgomery County', 'Morgan County', 'Newton County', 'Noble County', 'Ohio County', 'Orange County', 'Owen County', 'Parke County', 'Perry County', 'Pike County', 'Porter County', 'Posey County', 'Pulaski County', 'Putnam County', 'Randolph County', 'Ripley County', 'Rush County', 'St. Joseph County', 'Scott County', 'Shelby County', 'Spencer County', 'Starke County', 'Steuben County', 'Sullivan County', 'Switzerland County', 'Tippecanoe County', 'Tipton County', 'Union County', 'Vanderburgh County', 'Vermillion County', 'Vigo County', 'Wabash County', 'Warren County', 'Warrick County', 'Washington County', 'Wayne County', 'Wells County', 'White County', 'Whitley County'
+
 ];
 
 interface LocationSelectProps {

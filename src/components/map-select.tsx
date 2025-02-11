@@ -15,7 +15,7 @@ import {
 } from '@/components/ui/tooltip';
 
 // Import Indiana county GeoJSON data
-import indianaCounties from '@/data/indiana-counties.json';
+import indianaCounties from '@/data/County_Boundaries_of_Indiana_2023.json';
 
 interface MapSelectProps {
   selectedCounty: string;
@@ -90,7 +90,7 @@ export function MapSelect({ selectedCounty, onCountySelect, onSubmit }: MapSelec
         <div className="flex items-center justify-between">
           <p className="text-sm text-muted-foreground">
             {selectedCounty
-              ? `Selected: ${selectedCounty} County`
+              ? `Selected: ${selectedCounty}`
               : 'Click on a county to select it'}
           </p>
           <Button
